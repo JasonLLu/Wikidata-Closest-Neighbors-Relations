@@ -16,6 +16,7 @@ This converts the data from wikidata_translation_v1_names.json into .pkl files s
 
 ### 3: Open search.ipynb:
 Download the libraries that are imported, most notably, the installation of faiss can be found here: https://github.com/facebookresearch/faiss
+
 Choose to either run the closest neighbor code, or the closest relations code. For each function, the required specified parameters are commented within.
 
 #### Note: As of now the closest relations function is not working, but this is because the graph embeddings from fb research do not support it yet.
