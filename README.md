@@ -20,6 +20,7 @@ Choose to either run the closest neighbor code, or the closest relations code. F
 #### Note: As of now the closest relations function is not working, but this is because the graph embeddings from fb research do not support it yet.
 
 #### Citations:
+```tex
 @inproceedings{pbg,
   title={{PyTorch-BigGraph: A Large-scale Graph Embedding System}},
   author={Lerer, Adam and Wu, Ledell and Shen, Jiajun and Lacroix, Timothee and Wehrstedt, Luca and Bose, Abhijit and Peysakhovich, Alex},
@@ -27,3 +28,4 @@ Choose to either run the closest neighbor code, or the closest relations code. F
   year={2019},
   address={Palo Alto, CA, USA}
 }
+```
