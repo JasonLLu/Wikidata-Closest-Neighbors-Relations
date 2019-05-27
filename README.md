@@ -1,1 +1,20 @@
-# Wikidata-Closest-Neighbors-Relations
+# Wikidata Nearest Neighbor, Nearest Relation
+Utilizes facebook research's BigGraph to find closest neighbors; 
+
+search.py includes a closest neighbor function, which takes in a wikidata entity and outputs the wikidata entities that are most closely related to the input.
+
+It requires running the id_to_index and tsv_to_np code first as those will give you the files that search.py uses to run a fast and efficient algorithm.
+
+## How to use it:
+
+### 1: Download wikidata_translation_v1_names.json:
+https://dl.fbaipublicfiles.com/torchbiggraph/wikidata_translation_v1_names.json.gz
+
+This file allows the search.ipynb code to map wikidata entities to names. 
+### 2: Run the id_to_index.ipynb code:
+This converts the data from wikidata_translation_v1_names.json into .pkl files separated such that search.ipynb can process them.
+
+### 3: Open search.ipynb:
+Choose to either run the closest neighbor code, or the closest relations code. For each function, the required specified parameters are commented within.
+
+#### Note: As of now the closest relations function is not working, but this is because the graph embeddings from fb research do not support it yet.
