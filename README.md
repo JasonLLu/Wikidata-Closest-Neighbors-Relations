@@ -21,7 +21,12 @@ Choose to either run the closest neighbor code, or the closest relations code. F
 
 #### Note: As of now the closest relations function is not working, but this is because the graph embeddings from fb research do not support it yet.
 
+#### Relevant threads:
+https://github.com/facebookresearch/PyTorch-BigGraph/issues/13
+https://github.com/facebookresearch/PyTorch-BigGraph/issues/47
+
 #### Note: tsv_to_np.py can be used to convert tsv files to np arrays. This is useful if you use another embedding besides wikidata, such as the FB15k data which is also available from Facebook Reasearch's BigGraph
+
 
 #### Citations:
 https://github.com/facebookresearch/PyTorch-BigGraph
